@@ -1,0 +1,158 @@
+body {
+    background-color: #4915f8;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 210px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction:row;
+    padding: 0px;
+}
+
+.section-2-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.left-column-item {
+    flex: 1;
+}
+
+.left-column-item:nth-child(1) {
+    font-size: 32px;
+}
+
+.left-column-item:nth-child(2) {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.left-column-item:nth-child(3) {
+    font-size: 18px;
+    color:#BEBEBE;
+    width: 525px;
+}
+
+.left-column-item:nth-child(4) {
+    font-size: 11px;
+    color: #BEBEBE;
+    padding: 0px;
+    margin: 0px;
+}
+
+.left-column-item:nth-child(5) {
+    margin-top: 0px; /*clout image*/
+    margin-bottom: 36px;
+} 
+
+.right-column {
+    color: white;
+}
+
+.left-column {
+    
+    padding-top: 10px;
+    color: white;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-evenly;
+    color: lightgrey;    
+    padding: 150px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+
+.section-4-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left { /* left column in section-4 */
+    flex-direction: column;
+    flex-basis: 450px;
+    margin: 0px 30px;
+}
+
+.left-item {
+    color: white;
+    margin-bottom: 24px;
+}
+
+.left-item:nth-child(1) {
+    font-size: 24px;
+}
+
+.left-item:nth-child(2) {
+    font-weight: bold;
+}
+
+.left-item:nth-child(5) {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.right { /* right column in section-4 */
+    flex-direction: column;
+    flex-basis: 500px;
+    margin: 0px 30px;
+}
+
+.right-item {
+    color:white;
+    margin-bottom: 24px;
+}
+
+.right-item:nth-child(1) {
+    align-self: center;
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+.right-item:nth-child(2) {
+margin-bottom: 24px;
+font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+input[type='button'] {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+}
